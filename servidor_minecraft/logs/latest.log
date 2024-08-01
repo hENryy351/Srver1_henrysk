@@ -1,0 +1,183 @@
+2024-07-29 20:19:53,955 [32mINFO [m [m[main][m [mc.m.m.Launcher.main(76)[m: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+2024-07-29 20:19:53,961 [32mINFO [m [m[main][m [mc.m.m.Launcher.<init>(51)[m: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.3 by Microsoft; OS Linux arch amd64 version 6.5.0-1022-azure
+2024-07-29 20:19:54,071 [32mINFO [m [m[main][m [mmixin.info(97)[m: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Srver1_henrysk/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2382!/ Service=ModLauncher Env=SERVER
+2024-07-29 20:19:54,111 [33mWARN [m [m[main][m [mn.m.f.l.FMLConfig.loadFrom(53)[m: Configuration file /workspaces/Srver1_henrysk/servidor_minecraft/config/fml.toml is not correct. Correcting
+2024-07-29 20:19:54,368 [32mINFO [m [m[main][m [mn.m.f.l.m.JarInJarDependencyLocator.scanMods(54)[m: No dependencies to load found. Skipping!
+2024-07-29 20:19:55,668 [32mINFO [m [m[main][m [mc.m.m.LaunchServiceHandler.launch(52)[m: Launching target 'forgeserver' with arguments [nogui]
+2024-07-29 20:19:59,329 [32mINFO [m [m[main][m [mn.m.u.d.DataFixers.m_14529_(272)[m: Building unoptimized datafixer
+2024-07-29 20:20:01,120 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.ForgeMod.<init>(428)[m: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
+2024-07-29 20:20:01,123 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.MinecraftForge.initialize(49)[m: MinecraftForge v43.4.2 Initialized
+2024-07-29 20:20:01,321 [32mINFO [m [m[modloading-worker-0][m [mc.m.MohistMC.init(39)[m: EventDispatcherRegistry initialized
+2024-07-29 20:20:01,687 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.setConfig(87)[m: Configuration file /workspaces/Srver1_henrysk/servidor_minecraft/config/forge-common.toml is not correct. Correcting
+2024-07-29 20:20:01,689 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+2024-07-29 20:20:01,689 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key general.cachePackAccess was corrected from null to its default, true. 
+2024-07-29 20:20:01,690 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key general.indexVanillaPackCachesOnThread was corrected from null to its default, false. 
+2024-07-29 20:20:01,691 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key general.indexModPackCachesOnThread was corrected from null to its default, false. 
+2024-07-29 20:20:02,746 [1;31mERROR[m [m[main][m [mn.m.s.d.Settings.m_139839_(54)[m: Failed to load properties from file: server.properties
+2024-07-29 20:20:02,766 [32mINFO [m [m[main][m [mc.m.a.y.YggdrasilAuthenticationService.<init>(74)[m: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+2024-07-29 20:20:02,796 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/Srver1_henrysk/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23133!/assets/.mcassetsroot' uses unexpected schema
+2024-07-29 20:20:02,796 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/Srver1_henrysk/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23133!/data/.mcassetsroot' uses unexpected schema
+2024-07-29 20:20:04,939 [32mINFO [m [m[main][m [mn.m.w.i.c.RecipeManager.m_5787_(97)[m: Loaded 7 recipes
+2024-07-29 20:20:05,452 [32mINFO [m [m[main][m [mn.m.a.AdvancementList.m_139333_(94)[m: Loaded 1179 advancements
+2024-07-29 20:20:05,862 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(127)[m: Starting minecraft server version 1.19.2
+2024-07-29 20:20:05,863 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(132)[m: Loading properties
+2024-07-29 20:20:05,864 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(148)[m: Default game type: SURVIVAL
+2024-07-29 20:20:05,864 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129793_(1294)[m: Generating keypair
+2024-07-29 20:20:06,015 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(159)[m: Starting Minecraft server on *:25565
+2024-07-29 20:20:06,033 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerConnectionListener.m_9711_(83)[m: Using default channel type
+2024-07-29 20:20:06,254 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: This server is running Mohist version 1.19.2-131 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT, Forge version 43.4.2)
+2024-07-29 20:20:06,414 [32mINFO [m [m[Server thread][m [m.playerSample(271)[m: Server Ping Player Sample Count: 12
+2024-07-29 20:20:06,418 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Using 4 threads for Netty based IO
+2024-07-29 20:20:06,419 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Debug logging is enabled
+2024-07-29 20:20:06,437 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.setConfig(87)[m: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+2024-07-29 20:20:06,438 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+2024-07-29 20:20:06,439 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+2024-07-29 20:20:06,439 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+2024-07-29 20:20:06,440 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+2024-07-29 20:20:06,440 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+2024-07-29 20:20:06,441 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+2024-07-29 20:20:06,441 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+2024-07-29 20:20:06,442 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+2024-07-29 20:20:06,501 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(197)[m: Preparing level "world"
+2024-07-29 20:20:21,127 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(561)[m: Preparing start region for dimension minecraft:overworld
+2024-07-29 20:20:21,756 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:21,757 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:22,138 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:22,755 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:23,162 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:23,635 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:24,197 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:24,656 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 1%
+2024-07-29 20:20:25,131 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 1%
+2024-07-29 20:20:25,637 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 2%
+2024-07-29 20:20:26,135 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 2%
+2024-07-29 20:20:26,631 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 3%
+2024-07-29 20:20:27,134 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 4%
+2024-07-29 20:20:27,640 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 4%
+2024-07-29 20:20:28,131 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 5%
+2024-07-29 20:20:28,644 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 6%
+2024-07-29 20:20:29,137 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 7%
+2024-07-29 20:20:29,631 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 8%
+2024-07-29 20:20:30,141 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 9%
+2024-07-29 20:20:30,632 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 10%
+2024-07-29 20:20:31,143 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 11%
+2024-07-29 20:20:31,637 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 12%
+2024-07-29 20:20:32,132 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 14%
+2024-07-29 20:20:32,638 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 15%
+2024-07-29 20:20:33,129 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 17%
+2024-07-29 20:20:33,645 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 18%
+2024-07-29 20:20:34,134 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 20%
+2024-07-29 20:20:34,634 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 22%
+2024-07-29 20:20:35,143 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 23%
+2024-07-29 20:20:35,639 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 24%
+2024-07-29 20:20:36,133 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 26%
+2024-07-29 20:20:36,631 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 27%
+2024-07-29 20:20:37,151 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 30%
+2024-07-29 20:20:37,636 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 31%
+2024-07-29 20:20:38,148 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 32%
+2024-07-29 20:20:38,632 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 34%
+2024-07-29 20:20:39,140 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 36%
+2024-07-29 20:20:39,633 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 38%
+2024-07-29 20:20:40,135 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 41%
+2024-07-29 20:20:40,649 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 42%
+2024-07-29 20:20:41,129 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 44%
+2024-07-29 20:20:41,629 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 46%
+2024-07-29 20:20:42,137 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 49%
+2024-07-29 20:20:42,629 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 50%
+2024-07-29 20:20:43,133 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 51%
+2024-07-29 20:20:43,630 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 54%
+2024-07-29 20:20:44,141 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 55%
+2024-07-29 20:20:44,678 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 57%
+2024-07-29 20:20:45,142 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 59%
+2024-07-29 20:20:45,639 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 62%
+2024-07-29 20:20:46,131 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 64%
+2024-07-29 20:20:46,630 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 66%
+2024-07-29 20:20:47,129 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 68%
+2024-07-29 20:20:47,631 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 69%
+2024-07-29 20:20:48,141 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 72%
+2024-07-29 20:20:48,635 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 74%
+2024-07-29 20:20:49,153 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 75%
+2024-07-29 20:20:49,634 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 76%
+2024-07-29 20:20:50,129 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 79%
+2024-07-29 20:20:50,629 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 82%
+2024-07-29 20:20:51,129 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 83%
+2024-07-29 20:20:51,644 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 85%
+2024-07-29 20:20:52,128 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 87%
+2024-07-29 20:20:52,632 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 89%
+2024-07-29 20:20:53,144 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 92%
+2024-07-29 20:20:53,637 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 94%
+2024-07-29 20:20:54,135 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 96%
+2024-07-29 20:20:54,598 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 33470 ms
+2024-07-29 20:20:54,604 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(561)[m: Preparing start region for dimension minecraft:the_end
+2024-07-29 20:20:54,810 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:55,107 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:55,606 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:56,108 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 6%
+2024-07-29 20:20:56,606 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 17%
+2024-07-29 20:20:57,105 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 45%
+2024-07-29 20:20:57,605 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 84%
+2024-07-29 20:20:57,928 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 3323 ms
+2024-07-29 20:20:57,931 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(561)[m: Preparing start region for dimension minecraft:the_nether
+2024-07-29 20:20:58,116 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:58,432 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:58,935 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:59,453 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 1%
+2024-07-29 20:20:59,947 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 3%
+2024-07-29 20:21:00,442 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 5%
+2024-07-29 20:21:00,932 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 8%
+2024-07-29 20:21:01,454 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 10%
+2024-07-29 20:21:01,945 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 15%
+2024-07-29 20:21:02,435 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 18%
+2024-07-29 20:21:02,944 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 21%
+2024-07-29 20:21:03,437 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 23%
+2024-07-29 20:21:03,932 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 27%
+2024-07-29 20:21:04,444 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 31%
+2024-07-29 20:21:04,944 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 35%
+2024-07-29 20:21:05,431 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 40%
+2024-07-29 20:21:05,939 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 43%
+2024-07-29 20:21:06,432 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 48%
+2024-07-29 20:21:06,932 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 53%
+2024-07-29 20:21:07,447 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 57%
+2024-07-29 20:21:07,944 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 61%
+2024-07-29 20:21:08,433 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 66%
+2024-07-29 20:21:08,943 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 70%
+2024-07-29 20:21:09,439 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 74%
+2024-07-29 20:21:09,951 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 80%
+2024-07-29 20:21:10,432 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 84%
+2024-07-29 20:21:10,932 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 88%
+2024-07-29 20:21:11,441 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 93%
+2024-07-29 20:21:11,939 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 99%
+2024-07-29 20:21:11,953 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 14023 ms
+2024-07-29 20:21:11,971 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(201)[m: Done (65.540s)! For help, type "help"
+2024-07-29 20:21:11,986 [32mINFO [m [m[Server thread][m [mn.m.s.p.PermissionAPI.initializePermissionAPI(130)[m: Successfully initialized permission handler forge:default_handler
+2024-07-29 20:23:05,893 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1265)[m: Stopping the server
+2024-07-29 20:23:05,936 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_7041_(684)[m: Stopping server
+2024-07-29 20:23:05,937 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_7041_(696)[m: Saving players
+2024-07-29 20:23:06,038 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_7041_(702)[m: Saving worlds
+2024-07-29 20:23:08,081 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(622)[m: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+2024-07-29 20:23:16,412 [1;31mERROR[m [m[Server console handler][m [mn.m.s.d.DedicatedServer.uncaughtException(14)[m: Caught previously unhandled exception :
+java.io.IOError: java.io.IOException: Input/output error
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.21.0.jar%2379!/:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[jline-reader-3.21.0.jar%2379!/:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[jline-reader-3.21.0.jar%2379!/:?]
+	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923) ~[jline-reader-3.21.0.jar%2379!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956) ~[jline-reader-3.21.0.jar%2379!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651) ~[jline-reader-3.21.0.jar%2379!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.21.0.jar%2379!/:?]
+	at net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:46) ~[forge-1.19.2-43.4.2-universal.jar%23138!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:98) ~[server-1.19.2-20220805.130853-srg.jar%23133!/:?]
+Caused by: java.io.IOException: Input/output error
+	at java.io.FileInputStream.read0(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:231) ~[?:?]
+	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73) ~[jline-terminal-3.21.0.jar%2380!/:?]
+	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[jline-terminal-3.21.0.jar%2380!/:?]
+	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168) ~[jline-terminal-3.21.0.jar%2380!/:?]
+	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57) ~[jline-terminal-3.21.0.jar%2380!/:?]
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.21.0.jar%2379!/:?]
+	... 8 more
+2024-07-29 20:24:02,712 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(622)[m: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+2024-07-29 20:24:04,937 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(622)[m: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+2024-07-29 20:24:05,323 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(645)[m: ThreadedAnvilChunkStorage (world): All chunks are saved
+2024-07-29 20:24:05,323 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(645)[m: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+2024-07-29 20:24:05,323 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(645)[m: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+2024-07-29 20:24:05,324 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(648)[m: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -1,0 +1,2 @@
+give @a[tag=!ticket,team=lider] paper{display:{Name:'[{"text":"|","italic":false,"color":"dark_red","bold":true,"obfuscated":true},{"text":" Ticket para revivir ","obfuscated":false},{"text":"|"}]',Lore:['[{"text":"Usalo para revivir a quien quieras (Daselo a un admin)","italic":false,"bold":true,"color":"gold"}]']},Enchantments:[{}]} 1
+tag @a[tag=!ticket,team=lider] add ticket

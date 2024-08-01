@@ -1,0 +1,9 @@
+give @a[tag=!kit] bread 30
+give @a[tag=!kit] cgm:pistol{AmmoCount:0}
+give @a[tag=!kit] cgm:basic_bullet 64
+give @a[tag=!kit] cgm:basic_bullet 64
+item replace entity @a[tag=!kit] armor.head with minecraft:iron_helmet
+item replace entity @a[tag=!kit] armor.chest with minecraft:iron_chestplate
+item replace entity @a[tag=!kit] armor.legs with minecraft:iron_leggings
+item replace entity @a[tag=!kit] armor.feet with minecraft:iron_boots
+tag @a[tag=!kit] add kit

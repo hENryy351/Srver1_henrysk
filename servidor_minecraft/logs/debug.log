@@ -1,0 +1,521 @@
+2024-07-29 20:19:53,955 [32mINFO [m [m[main][m [mc.m.m.Launcher.main(76)[m: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+2024-07-29 20:19:53,961 [32mINFO [m [m[main][m [mc.m.m.Launcher.<init>(51)[m: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.3 by Microsoft; OS Linux arch amd64 version 6.5.0-1022-azure
+2024-07-29 20:19:53,982 [36mDEBUG[m [m[main][m [mc.m.m.LaunchServiceHandler.<init>(41)[m: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+2024-07-29 20:19:53,991 [36mDEBUG[m [m[main][m [mc.m.m.NameMappingServiceHandler.<init>(44)[m: Found naming services : [srgtomcp]
+2024-07-29 20:19:54,003 [36mDEBUG[m [m[main][m [mc.m.m.LaunchPluginHandler.<init>(58)[m: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+2024-07-29 20:19:54,012 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.discoverServices(120)[m: Discovering transformation services
+2024-07-29 20:19:54,016 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.discoverServices(128)[m: Found additional transformation services from discovery services: 
+2024-07-29 20:19:54,024 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.discoverServices(140)[m: Found transformer services : [mixin,fml]
+2024-07-29 20:19:54,024 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.loadTransformationServices(115)[m: Transformation services loading
+2024-07-29 20:19:54,025 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onLoad(52)[m: Loading service mixin
+2024-07-29 20:19:54,026 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onLoad(55)[m: Loaded service mixin
+2024-07-29 20:19:54,027 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onLoad(52)[m: Loading service fml
+2024-07-29 20:19:54,029 [36mDEBUG[m [m[main][m [mn.m.f.l.LauncherVersion.<clinit>(21)[m: Found FMLLauncher version 1.0
+2024-07-29 20:19:54,030 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(61)[m: FML 1.0 loading
+2024-07-29 20:19:54,030 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(63)[m: FML found ModLauncher version : 10.0.8+10.0.8+main.0ef7e830
+2024-07-29 20:19:54,030 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(75)[m: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+2024-07-29 20:19:54,031 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(87)[m: FML found EventBus version : 6.0.5+0+master.c510e2cc
+2024-07-29 20:19:54,031 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(97)[m: Found Runtime Dist Cleaner
+2024-07-29 20:19:54,033 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(111)[m: FML found CoreMod version : 5.0.1+15+master.dc5a2922
+2024-07-29 20:19:54,033 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(114)[m: Found ForgeSPI package implementation version 6.0.0+6.0.0+master.42474703
+2024-07-29 20:19:54,033 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(115)[m: Found ForgeSPI package specification 5
+2024-07-29 20:19:54,035 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onLoad(55)[m: Loaded service fml
+2024-07-29 20:19:54,036 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.processArguments(66)[m: Configuring option handling for services
+2024-07-29 20:19:54,043 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.initialiseTransformationServices(90)[m: Transformation services initializing
+2024-07-29 20:19:54,044 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onInitialize(67)[m: Initializing transformation service mixin
+2024-07-29 20:19:54,056 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@59d016c9
+2024-07-29 20:19:54,071 [32mINFO [m [m[main][m [mmixin.info(97)[m: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Srver1_henrysk/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2382!/ Service=ModLauncher Env=SERVER
+2024-07-29 20:19:54,074 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Initialising Mixin Platform Manager
+2024-07-29 20:19:54,075 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+2024-07-29 20:19:54,075 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+2024-07-29 20:19:54,076 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+2024-07-29 20:19:54,076 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+2024-07-29 20:19:54,077 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+2024-07-29 20:19:54,079 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onInitialize(69)[m: Initialized transformation service mixin
+2024-07-29 20:19:54,079 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onInitialize(67)[m: Initializing transformation service fml
+2024-07-29 20:19:54,080 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.initialize(62)[m: Setting up basic FML game directories
+2024-07-29 20:19:54,081 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(42)[m: Found existing GAMEDIR directory : /workspaces/Srver1_henrysk/servidor_minecraft
+2024-07-29 20:19:54,081 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLPaths.loadAbsolutePaths(66)[m: Path GAMEDIR is /workspaces/Srver1_henrysk/servidor_minecraft
+2024-07-29 20:19:54,081 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(29)[m: Making MODSDIR directory : /workspaces/Srver1_henrysk/servidor_minecraft/mods
+2024-07-29 20:19:54,081 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(40)[m: Created MODSDIR directory : /workspaces/Srver1_henrysk/servidor_minecraft/mods
+2024-07-29 20:19:54,082 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLPaths.loadAbsolutePaths(66)[m: Path MODSDIR is /workspaces/Srver1_henrysk/servidor_minecraft/mods
+2024-07-29 20:19:54,082 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(29)[m: Making CONFIGDIR directory : /workspaces/Srver1_henrysk/servidor_minecraft/config
+2024-07-29 20:19:54,082 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(40)[m: Created CONFIGDIR directory : /workspaces/Srver1_henrysk/servidor_minecraft/config
+2024-07-29 20:19:54,082 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLPaths.loadAbsolutePaths(66)[m: Path CONFIGDIR is /workspaces/Srver1_henrysk/servidor_minecraft/config
+2024-07-29 20:19:54,083 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLPaths.loadAbsolutePaths(66)[m: Path FMLCONFIG is /workspaces/Srver1_henrysk/servidor_minecraft/config/fml.toml
+2024-07-29 20:19:54,083 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.initialize(64)[m: Loading configuration
+2024-07-29 20:19:54,111 [33mWARN [m [m[main][m [mn.m.f.l.FMLConfig.loadFrom(53)[m: Configuration file /workspaces/Srver1_henrysk/servidor_minecraft/config/fml.toml is not correct. Correcting
+2024-07-29 20:19:54,116 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLConfig.lambda$loadFrom$0(55)[m: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
+2024-07-29 20:19:54,120 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(29)[m: Making default config directory directory : /workspaces/Srver1_henrysk/servidor_minecraft/defaultconfigs
+2024-07-29 20:19:54,120 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(40)[m: Created default config directory directory : /workspaces/Srver1_henrysk/servidor_minecraft/defaultconfigs
+2024-07-29 20:19:54,121 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.initialize(66)[m: Preparing ModFile
+2024-07-29 20:19:54,123 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.initialize(77)[m: Preparing launch handler
+2024-07-29 20:19:54,124 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.setupLaunchHandler(135)[m: Using forgeserver as launch service
+2024-07-29 20:19:54,140 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.setupLaunchHandler(158)[m: Received command line version data  : VersionInfo[forgeVersion=43.4.2, mcVersion=1.19.2, mcpVersion=20220805.130853, forgeGroup=net.minecraftforge]
+2024-07-29 20:19:54,141 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onInitialize(69)[m: Initialized transformation service fml
+2024-07-29 20:19:54,142 [36mDEBUG[m [m[main][m [mc.m.m.NameMappingServiceHandler.bindNamingServices(53)[m: Current naming domain is 'srg'
+2024-07-29 20:19:54,142 [36mDEBUG[m [m[main][m [mc.m.m.NameMappingServiceHandler.bindNamingServices(57)[m: Identified name mapping providers {}
+2024-07-29 20:19:54,142 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.runScanningTransformationServices(96)[m: Transformation services begin scanning
+2024-07-29 20:19:54,143 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.runScan(111)[m: Beginning scan trigger - transformation service mixin
+2024-07-29 20:19:54,143 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.runScan(113)[m: End scan trigger - transformation service mixin
+2024-07-29 20:19:54,143 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.runScan(111)[m: Beginning scan trigger - transformation service fml
+2024-07-29 20:19:54,144 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.beginScanning(85)[m: Initiating mod scan
+2024-07-29 20:19:54,152 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModListHandler.processModLists(54)[m: Found mod coordinates from lists: []
+2024-07-29 20:19:54,155 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModDiscoverer.<init>(51)[m: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
+2024-07-29 20:19:54,156 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModDiscoverer.<init>(57)[m: Found Dependency Locators : (JarInJar:null)
+2024-07-29 20:19:54,302 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileInfo.<init>(73)[m: Found valid mod file server-1.19.2-20220805.130853-srg.jar with {minecraft} mods - versions {1.19.2}
+2024-07-29 20:19:54,305 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/Srver1_henrysk/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar
+2024-07-29 20:19:54,306 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/Srver1_henrysk/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar
+2024-07-29 20:19:54,307 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/Srver1_henrysk/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar
+2024-07-29 20:19:54,308 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/Srver1_henrysk/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar
+2024-07-29 20:19:54,312 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/Srver1_henrysk/servidor_minecraft/libraries/net/minecraftforge/forge/1.19.2-43.4.2/forge-1.19.2-43.4.2-universal.jar
+2024-07-29 20:19:54,317 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileInfo.<init>(73)[m: Found valid mod file forge-1.19.2-43.4.2-universal.jar with {forge} mods - versions {43.4.2}
+2024-07-29 20:19:54,332 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(29)[m: Failed to load resource META-INF/jarjar/metadata.json from server-1.19.2-20220805.130853-srg.jar, it does not contain dependency information.
+2024-07-29 20:19:54,332 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(29)[m: Failed to load resource META-INF/jarjar/metadata.json from forge-1.19.2-43.4.2-universal.jar, it does not contain dependency information.
+2024-07-29 20:19:54,333 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(29)[m: Failed to load resource META-INF/jarjar/metadata.json from mclanguage-1.19.2-43.4.2.jar, it does not contain dependency information.
+2024-07-29 20:19:54,333 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(29)[m: Failed to load resource META-INF/jarjar/metadata.json from javafmllanguage-1.19.2-43.4.2.jar, it does not contain dependency information.
+2024-07-29 20:19:54,333 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(29)[m: Failed to load resource META-INF/jarjar/metadata.json from fmlcore-1.19.2-43.4.2.jar, it does not contain dependency information.
+2024-07-29 20:19:54,334 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(29)[m: Failed to load resource META-INF/jarjar/metadata.json from lowcodelanguage-1.19.2-43.4.2.jar, it does not contain dependency information.
+2024-07-29 20:19:54,368 [32mINFO [m [m[main][m [mn.m.f.l.m.JarInJarDependencyLocator.scanMods(54)[m: No dependencies to load found. Skipping!
+2024-07-29 20:19:54,371 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileInfo.<init>(73)[m: Found valid mod file server-1.19.2-20220805.130853-srg.jar with {minecraft} mods - versions {1.19.2}
+2024-07-29 20:19:54,373 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.identifyMods(113)[m: Loading mod file /workspaces/Srver1_henrysk/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+2024-07-29 20:19:54,374 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/Srver1_henrysk/servidor_minecraft/libraries/net/minecraftforge/forge/1.19.2-43.4.2/forge-1.19.2-43.4.2-universal.jar
+2024-07-29 20:19:54,376 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileInfo.<init>(73)[m: Found valid mod file forge-1.19.2-43.4.2-universal.jar with {forge} mods - versions {43.4.2}
+2024-07-29 20:19:54,377 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.identifyMods(113)[m: Loading mod file /workspaces/Srver1_henrysk/servidor_minecraft/libraries/net/minecraftforge/forge/1.19.2-43.4.2/forge-1.19.2-43.4.2-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+2024-07-29 20:19:54,437 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.lambda$getCoreMods$0(68)[m: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+2024-07-29 20:19:54,437 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.lambda$getCoreMods$0(68)[m: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+2024-07-29 20:19:54,437 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.lambda$getCoreMods$0(68)[m: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+2024-07-29 20:19:54,438 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.lambda$identifyMods$1(115)[m: Found coremod coremods/field_to_method.js
+2024-07-29 20:19:54,438 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.lambda$identifyMods$1(115)[m: Found coremod coremods/field_to_instanceof.js
+2024-07-29 20:19:54,438 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.lambda$identifyMods$1(115)[m: Found coremod coremods/add_bouncer_method.js
+2024-07-29 20:19:54,439 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.runScan(113)[m: End scan trigger - transformation service fml
+2024-07-29 20:19:54,452 [36mDEBUG[m [m[main][m [mn.m.f.l.LanguageLoadingProvider.loadLanguageProviders(84)[m: Found 3 language providers
+2024-07-29 20:19:54,452 [36mDEBUG[m [m[main][m [mn.m.f.l.LanguageLoadingProvider.lambda$loadLanguageProviders$4(100)[m: Found language provider minecraft, version 1.0
+2024-07-29 20:19:54,453 [36mDEBUG[m [m[main][m [mn.m.f.l.LanguageLoadingProvider.lambda$loadLanguageProviders$4(100)[m: Found language provider lowcodefml, version 43
+2024-07-29 20:19:54,454 [36mDEBUG[m [m[main][m [mn.m.f.l.LanguageLoadingProvider.lambda$loadLanguageProviders$4(100)[m: Found language provider javafml, version 43
+2024-07-29 20:19:54,458 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.detectSystemMods(172)[m: Configured system mods: [minecraft, forge]
+2024-07-29 20:19:54,458 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.detectSystemMods(178)[m: Found system mod: minecraft
+2024-07-29 20:19:54,459 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.detectSystemMods(178)[m: Found system mod: forge
+2024-07-29 20:19:54,461 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.verifyDependencyVersions(204)[m: Found 0 mod requirements (0 mandatory, 0 optional)
+2024-07-29 20:19:54,461 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.verifyDependencyVersions(209)[m: Found 0 mod requirements missing (0 mandatory, 0 optional)
+2024-07-29 20:19:54,958 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.initialiseServiceTransformers(84)[m: Transformation services loading transformers
+2024-07-29 20:19:54,959 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.gatherTransformers(73)[m: Initializing transformers for transformation service mixin
+2024-07-29 20:19:54,959 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.gatherTransformers(103)[m: Initialized transformers for transformation service mixin
+2024-07-29 20:19:54,960 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.gatherTransformers(73)[m: Initializing transformers for transformation service fml
+2024-07-29 20:19:54,960 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.transformers(132)[m: Loading coremod transformers
+2024-07-29 20:19:54,960 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(74)[m: Loading CoreMod from coremods/field_to_method.js
+2024-07-29 20:19:55,227 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(79)[m: CoreMod loaded successfully
+2024-07-29 20:19:55,228 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(74)[m: Loading CoreMod from coremods/field_to_instanceof.js
+2024-07-29 20:19:55,323 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(79)[m: CoreMod loaded successfully
+2024-07-29 20:19:55,324 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(74)[m: Loading CoreMod from coremods/add_bouncer_method.js
+2024-07-29 20:19:55,369 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(79)[m: CoreMod loaded successfully
+2024-07-29 20:19:55,377 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@35a60674 to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+2024-07-29 20:19:55,378 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@71926a36 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+2024-07-29 20:19:55,379 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@216e9ca3 to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+2024-07-29 20:19:55,379 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@75120e58 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+2024-07-29 20:19:55,379 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+2024-07-29 20:19:55,381 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2a367e93 to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+2024-07-29 20:19:55,381 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7f6874f2 to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+2024-07-29 20:19:55,383 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1a6dc589 to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+2024-07-29 20:19:55,383 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@697a34af to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+2024-07-29 20:19:55,383 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.gatherTransformers(103)[m: Initialized transformers for transformation service fml
+2024-07-29 20:19:55,656 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+2024-07-29 20:19:55,658 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+2024-07-29 20:19:55,661 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Adding mixin platform agents for container SecureJarResource(minecraft)
+2024-07-29 20:19:55,662 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+2024-07-29 20:19:55,662 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+2024-07-29 20:19:55,663 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+2024-07-29 20:19:55,663 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+2024-07-29 20:19:55,663 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+2024-07-29 20:19:55,664 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Adding mixin platform agents for container SecureJarResource(forge)
+2024-07-29 20:19:55,664 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+2024-07-29 20:19:55,664 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+2024-07-29 20:19:55,664 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+2024-07-29 20:19:55,665 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+2024-07-29 20:19:55,665 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+2024-07-29 20:19:55,665 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: inject() running with 3 agents
+2024-07-29 20:19:55,665 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+2024-07-29 20:19:55,667 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+2024-07-29 20:19:55,667 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+2024-07-29 20:19:55,668 [32mINFO [m [m[main][m [mc.m.m.LaunchServiceHandler.launch(52)[m: Launching target 'forgeserver' with arguments [nogui]
+2024-07-29 20:19:55,716 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Error cleaning class output directory: .mixin.out
+2024-07-29 20:19:55,719 [36mDEBUG[m [m[main][m [mmixin.log(107)[m: Preparing mixins for MixinEnvironment[DEFAULT]
+2024-07-29 20:19:55,811 [36mDEBUG[m [m[main][m [mi.n.u.i.l.InternalLoggerFactory.useSlf4JLoggerFactory(63)[m: Using SLF4J as the default logging framework
+2024-07-29 20:19:55,813 [36mDEBUG[m [m[main][m [mi.n.u.ResourceLeakDetector.<clinit>(129)[m: -Dio.netty.leakDetection.level: simple
+2024-07-29 20:19:55,814 [36mDEBUG[m [m[main][m [mi.n.u.ResourceLeakDetector.<clinit>(130)[m: -Dio.netty.leakDetection.targetRecords: 4
+2024-07-29 20:19:55,967 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readPropertiesFromClassLoader(302)[m: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@201c3cda
+2024-07-29 20:19:55,993 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readFile(89)[m: Reading file /proc/cpuinfo
+2024-07-29 20:19:55,994 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readFile(89)[m: Reading file /proc/cpuinfo
+2024-07-29 20:19:56,013 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readPropertiesFromClassLoader(302)[m: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@201c3cda
+2024-07-29 20:19:56,053 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readFile(89)[m: Reading file /proc/meminfo
+2024-07-29 20:19:56,054 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readFile(89)[m: Reading file /proc/meminfo
+2024-07-29 20:19:56,538 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/level/levelgen/structure/Structure
+2024-07-29 20:19:56,747 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/level/block/LiquidBlock
+2024-07-29 20:19:56,806 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/level/block/StairBlock
+2024-07-29 20:19:56,907 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/level/block/FlowerPotBlock
+2024-07-29 20:19:58,089 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/item/ItemStack
+2024-07-29 20:19:59,329 [32mINFO [m [m[main][m [mn.m.u.d.DataFixers.m_14529_(272)[m: Building unoptimized datafixer
+2024-07-29 20:20:00,111 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/level/biome/Biome
+2024-07-29 20:20:00,570 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/item/BucketItem
+2024-07-29 20:20:00,656 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/effect/MobEffectInstance
+2024-07-29 20:20:01,046 [36mDEBUG[m [m[main][m [mn.m.c.ForgeI18n.loadLanguageData(82)[m: Loading I18N data entries: 5642
+2024-07-29 20:20:01,064 [36mDEBUG[m [m[main][m [mn.m.f.ModWorkManager.parallelExecutor(97)[m: Using 4 threads for parallel mod-loading
+2024-07-29 20:20:01,072 [36mDEBUG[m [m[main][m [mn.m.f.j.FMLJavaModLanguageProvider.loadMod(60)[m: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@201c3cda - got cpw.mods.cl.ModuleClassLoader@2d195ee4
+2024-07-29 20:20:01,073 [36mDEBUG[m [m[main][m [mn.m.f.j.FMLModContainer.<init>(40)[m: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+2024-07-29 20:20:01,117 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.f.ForgeVersion.<clinit>(29)[m: Forge Version package package net.minecraftforge.versions.forge, Forge, version 0.0 from cpw.mods.modlauncher.TransformingClassLoader@201c3cda
+2024-07-29 20:20:01,118 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.f.ForgeVersion.<clinit>(41)[m: Found Forge version 43.4.2
+2024-07-29 20:20:01,118 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.f.ForgeVersion.<clinit>(42)[m: Found Forge spec 0.0
+2024-07-29 20:20:01,119 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.f.ForgeVersion.<clinit>(43)[m: Found Forge group net.minecraftforge
+2024-07-29 20:20:01,120 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.m.MCPVersion.<clinit>(21)[m: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.19.2 from cpw.mods.modlauncher.TransformingClassLoader@201c3cda
+2024-07-29 20:20:01,120 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.m.MCPVersion.<clinit>(28)[m: Found MC version information 1.19.2
+2024-07-29 20:20:01,120 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.m.MCPVersion.<clinit>(29)[m: Found MCP version information 20220805.130853
+2024-07-29 20:20:01,120 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.ForgeMod.<init>(428)[m: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
+2024-07-29 20:20:01,123 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.MinecraftForge.initialize(49)[m: MinecraftForge v43.4.2 Initialized
+2024-07-29 20:20:01,162 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.explicitNoUnsafeCause0(495)[m: -Dio.netty.noUnsafe: false
+2024-07-29 20:20:01,163 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.javaVersion0(998)[m: Java version: 21
+2024-07-29 20:20:01,163 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(136)[m: sun.misc.Unsafe.theUnsafe: available
+2024-07-29 20:20:01,164 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(160)[m: sun.misc.Unsafe.copyMemory: available
+2024-07-29 20:20:01,164 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(192)[m: sun.misc.Unsafe.storeFence: available
+2024-07-29 20:20:01,165 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(235)[m: java.nio.Buffer.address: available
+2024-07-29 20:20:01,165 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(316)[m: direct buffer constructor: unavailable
+java.lang.NoSuchMethodException: java.nio.DirectByteBuffer.<init>(long,int)
+	at java.lang.Class.getConstructor0(Class.java:3761) ~[?:?]
+	at java.lang.Class.getDeclaredConstructor(Class.java:2930) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:286) ~[netty-common-4.1.77.Final.jar%23123!/:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:319) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:281) ~[netty-common-4.1.77.Final.jar%23123!/:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) ~[netty-common-4.1.77.Final.jar%23123!/:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.77.Final.jar%23123!/:4.1.77.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.77.Final.jar%23123!/:4.1.77.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.77.Final.jar%23123!/:4.1.77.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.77.Final.jar%23123!/:4.1.77.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.19.2-43.4.2-universal.jar%23138!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:437) ~[forge-1.19.2-43.4.2-universal.jar%23138!/:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.19.2-43.4.2.jar%23135!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:122) ~[fmlcore-1.19.2-43.4.2.jar%23134!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+2024-07-29 20:20:01,166 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(384)[m: java.nio.Bits.unaligned: available, true
+2024-07-29 20:20:01,167 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(448)[m: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 (in module io.netty.common) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.common
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:394) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:714) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:571) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:409) ~[netty-common-4.1.77.Final.jar%23123!/:4.1.77.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:319) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:400) ~[netty-common-4.1.77.Final.jar%23123!/:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) ~[netty-common-4.1.77.Final.jar%23123!/:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.77.Final.jar%23123!/:4.1.77.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.77.Final.jar%23123!/:4.1.77.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.77.Final.jar%23123!/:4.1.77.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.77.Final.jar%23123!/:4.1.77.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.19.2-43.4.2-universal.jar%23138!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:437) ~[forge-1.19.2-43.4.2-universal.jar%23138!/:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.19.2-43.4.2.jar%23135!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:122) ~[fmlcore-1.19.2-43.4.2.jar%23134!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+2024-07-29 20:20:01,169 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(481)[m: java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2024-07-29 20:20:01,170 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.unsafeUnavailabilityCause0(1120)[m: sun.misc.Unsafe: available
+2024-07-29 20:20:01,171 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.estimateMaxDirectMemory(1231)[m: maxDirectMemory: 4190109696 bytes (maybe)
+2024-07-29 20:20:01,171 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.tmpdir0(1250)[m: -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2024-07-29 20:20:01,171 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.bitMode0(1329)[m: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-07-29 20:20:01,172 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.<clinit>(178)[m: -Dio.netty.maxDirectMemory: -1 bytes
+2024-07-29 20:20:01,173 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.<clinit>(185)[m: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-07-29 20:20:01,174 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.CleanerJava9.<clinit>(71)[m: java.nio.ByteBuffer.cleaner(): available
+2024-07-29 20:20:01,174 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.<clinit>(205)[m: -Dio.netty.noPreferDirect: false
+2024-07-29 20:20:01,201 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.c.ForgeMod.<init>(437)[m: Loading Network data for FML net version: FML3
+2024-07-29 20:20:01,256 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.f.c.ConfigTracker.trackConfig(45)[m: Config file forge-client.toml for forge tracking
+2024-07-29 20:20:01,256 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.f.c.ConfigTracker.trackConfig(45)[m: Config file forge-server.toml for forge tracking
+2024-07-29 20:20:01,256 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.f.c.ConfigTracker.trackConfig(45)[m: Config file forge-common.toml for forge tracking
+2024-07-29 20:20:01,321 [32mINFO [m [m[modloading-worker-0][m [mc.m.MohistMC.init(39)[m: EventDispatcherRegistry initialized
+2024-07-29 20:20:01,322 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.f.j.AutomaticEventSubscriber.inject(40)[m: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+2024-07-29 20:20:01,326 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.f.j.AutomaticEventSubscriber.lambda$inject$6(60)[m: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+2024-07-29 20:20:01,480 [36mDEBUG[m [m[main][m [mn.m.c.c.CapabilityManager.injectCapabilities(79)[m: Attempting to automatically register: Lnet/minecraftforge/energy/IEnergyStorage;
+2024-07-29 20:20:01,481 [36mDEBUG[m [m[main][m [mn.m.c.c.CapabilityManager.injectCapabilities(79)[m: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandler;
+2024-07-29 20:20:01,482 [36mDEBUG[m [m[main][m [mn.m.c.c.CapabilityManager.injectCapabilities(79)[m: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandlerItem;
+2024-07-29 20:20:01,482 [36mDEBUG[m [m[main][m [mn.m.c.c.CapabilityManager.injectCapabilities(79)[m: Attempting to automatically register: Lnet/minecraftforge/items/IItemHandler;
+2024-07-29 20:20:01,682 [36mDEBUG[m [m[main][m [mn.m.f.c.ConfigTracker.loadConfigs(49)[m: Loading configs type COMMON
+2024-07-29 20:20:01,684 [36mDEBUG[m [m[main][m [mn.m.f.c.ConfigFileTypeHandler.lambda$reader$1(40)[m: Built TOML config for /workspaces/Srver1_henrysk/servidor_minecraft/config/forge-common.toml
+2024-07-29 20:20:01,685 [36mDEBUG[m [m[main][m [mn.m.f.c.ConfigFileTypeHandler.lambda$reader$1(49)[m: Loaded TOML config file /workspaces/Srver1_henrysk/servidor_minecraft/config/forge-common.toml
+2024-07-29 20:20:01,686 [36mDEBUG[m [m[main][m [mn.m.f.c.ConfigFileTypeHandler.lambda$reader$1(52)[m: Watching TOML config file /workspaces/Srver1_henrysk/servidor_minecraft/config/forge-common.toml for changes
+2024-07-29 20:20:01,687 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.setConfig(87)[m: Configuration file /workspaces/Srver1_henrysk/servidor_minecraft/config/forge-common.toml is not correct. Correcting
+2024-07-29 20:20:01,689 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+2024-07-29 20:20:01,689 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key general.cachePackAccess was corrected from null to its default, true. 
+2024-07-29 20:20:01,690 [36mDEBUG[m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$1(92)[m: The comment on key general.cachePackAccess does not match the spec. This may create a backup.
+2024-07-29 20:20:01,690 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key general.indexVanillaPackCachesOnThread was corrected from null to its default, false. 
+2024-07-29 20:20:01,690 [36mDEBUG[m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$1(92)[m: The comment on key general.indexVanillaPackCachesOnThread does not match the spec. This may create a backup.
+2024-07-29 20:20:01,691 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key general.indexModPackCachesOnThread was corrected from null to its default, false. 
+2024-07-29 20:20:01,691 [36mDEBUG[m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$1(92)[m: The comment on key general.indexModPackCachesOnThread does not match the spec. This may create a backup.
+2024-07-29 20:20:01,691 [36mDEBUG[m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$1(92)[m: The comment on key general does not match the spec. This may create a backup.
+2024-07-29 20:20:01,692 [36mDEBUG[m [m[Thread-0][m [mn.m.f.c.ConfigFileTypeHandler.run(145)[m: Config file forge-common.toml changed, sending notifies
+2024-07-29 20:20:01,694 [36mDEBUG[m [m[Thread-0][m [mn.m.c.ForgeConfig.onFileChange(202)[m: Forge config just got changed on the file system!
+2024-07-29 20:20:01,693 [36mDEBUG[m [m[main][m [mn.m.c.ForgeConfig.onLoad(197)[m: Loaded forge config file forge-common.toml
+2024-07-29 20:20:01,696 [36mDEBUG[m [m[Thread-0][m [mn.m.f.c.ConfigFileTypeHandler.run(145)[m: Config file forge-common.toml changed, sending notifies
+2024-07-29 20:20:01,696 [36mDEBUG[m [m[Thread-0][m [mn.m.c.ForgeConfig.onFileChange(202)[m: Forge config just got changed on the file system!
+2024-07-29 20:20:01,697 [36mDEBUG[m [m[Thread-0][m [mn.m.f.c.ConfigFileTypeHandler.run(145)[m: Config file forge-common.toml changed, sending notifies
+2024-07-29 20:20:01,698 [36mDEBUG[m [m[Thread-0][m [mn.m.c.ForgeConfig.onFileChange(202)[m: Forge config just got changed on the file system!
+2024-07-29 20:20:02,746 [1;31mERROR[m [m[main][m [mn.m.s.d.Settings.m_139839_(54)[m: Failed to load properties from file: server.properties
+2024-07-29 20:20:02,766 [32mINFO [m [m[main][m [mc.m.a.y.YggdrasilAuthenticationService.<init>(74)[m: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+2024-07-29 20:20:02,796 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/Srver1_henrysk/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23133!/assets/.mcassetsroot' uses unexpected schema
+2024-07-29 20:20:02,796 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/Srver1_henrysk/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23133!/data/.mcassetsroot' uses unexpected schema
+2024-07-29 20:20:02,832 [36mDEBUG[m [m[main][m [mn.m.s.ServerLifecycleHooks.serverPackFinder(209)[m: Generating PackInfo named mod:forge for mod file /workspaces/Srver1_henrysk/servidor_minecraft/libraries/net/minecraftforge/forge/1.19.2-43.4.2/forge-1.19.2-43.4.2-universal.jar
+2024-07-29 20:20:02,840 [36mDEBUG[m [m[Worker-Main-1][m [mn.m.r.ResourceCacheManager$NamespacedResourceCacheManager.doIndex(333)[m: Indexing resources for pack type CLIENT_RESOURCES and namespace minecraft, on thread: Worker-Main-1
+2024-07-29 20:20:02,840 [36mDEBUG[m [m[Worker-Main-2][m [mn.m.r.ResourceCacheManager$NamespacedResourceCacheManager.doIndex(333)[m: Indexing resources for pack type SERVER_DATA and namespace minecraft, on thread: Worker-Main-2
+2024-07-29 20:20:02,841 [36mDEBUG[m [m[Worker-Main-3][m [mn.m.r.ResourceCacheManager$NamespacedResourceCacheManager.doIndex(333)[m: Indexing resources for pack type CLIENT_RESOURCES and namespace realms, on thread: Worker-Main-3
+2024-07-29 20:20:02,847 [36mDEBUG[m [m[Worker-Main-1][m [mn.m.r.ResourceCacheManager$NamespacedResourceCacheManager.doIndex(333)[m: Indexing resources for pack type SERVER_DATA and namespace realms, on thread: Worker-Main-1
+2024-07-29 20:20:02,848 [36mDEBUG[m [m[Worker-Main-1][m [mn.m.r.ResourceCacheManager$NamespacedResourceCacheManager.doIndex(355)[m: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /data/realms
+2024-07-29 20:20:02,848 [36mDEBUG[m [m[Worker-Main-1][m [mn.m.r.ResourceCacheManager$NamespacedResourceCacheManager.doIndex(333)[m: Indexing resources for pack type CLIENT_RESOURCES and namespace minecraft, on thread: Worker-Main-1
+2024-07-29 20:20:02,848 [36mDEBUG[m [m[Worker-Main-1][m [mn.m.r.ResourceCacheManager$NamespacedResourceCacheManager.doIndex(355)[m: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+2024-07-29 20:20:02,848 [36mDEBUG[m [m[Worker-Main-1][m [mn.m.r.ResourceCacheManager$NamespacedResourceCacheManager.doIndex(333)[m: Indexing resources for pack type SERVER_DATA and namespace minecraft, on thread: Worker-Main-1
+2024-07-29 20:20:02,852 [36mDEBUG[m [m[Worker-Main-3][m [mn.m.r.ResourceCacheManager$NamespacedResourceCacheManager.doIndex(355)[m: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/realms
+2024-07-29 20:20:02,852 [36mDEBUG[m [m[Worker-Main-3][m [mn.m.r.ResourceCacheManager$NamespacedResourceCacheManager.doIndex(333)[m: Indexing resources for pack type CLIENT_RESOURCES and namespace forge, on thread: Worker-Main-3
+2024-07-29 20:20:02,853 [36mDEBUG[m [m[Worker-Main-3][m [mn.m.r.ResourceCacheManager$NamespacedResourceCacheManager.doIndex(333)[m: Indexing resources for pack type SERVER_DATA and namespace forge, on thread: Worker-Main-3
+2024-07-29 20:20:04,939 [32mINFO [m [m[main][m [mn.m.w.i.c.RecipeManager.m_5787_(97)[m: Loaded 7 recipes
+2024-07-29 20:20:05,452 [32mINFO [m [m[main][m [mn.m.a.AdvancementList.m_139333_(94)[m: Loaded 1179 advancements
+2024-07-29 20:20:05,779 [36mDEBUG[m [m[main][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1408)[m: Gathering id map for writing to world save world
+2024-07-29 20:20:05,792 [36mDEBUG[m [m[main][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1414)[m: ID Map collection complete world
+2024-07-29 20:20:05,862 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(127)[m: Starting minecraft server version 1.19.2
+2024-07-29 20:20:05,863 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(132)[m: Loading properties
+2024-07-29 20:20:05,864 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(148)[m: Default game type: SURVIVAL
+2024-07-29 20:20:05,864 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129793_(1294)[m: Generating keypair
+2024-07-29 20:20:06,015 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(159)[m: Starting Minecraft server on *:25565
+2024-07-29 20:20:06,020 [36mDEBUG[m [m[Server thread][m [mn.m.n.DualStackUtils.checkIPv6(73)[m: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+2024-07-29 20:20:06,027 [36mDEBUG[m [m[Server thread][m [mi.n.u.i.NativeLibraryLoader.<clinit>(78)[m: -Dio.netty.native.workdir: /tmp (io.netty.tmpdir)
+2024-07-29 20:20:06,028 [36mDEBUG[m [m[Server thread][m [mi.n.u.i.NativeLibraryLoader.<clinit>(83)[m: -Dio.netty.native.deleteLibAfterLoading: true
+2024-07-29 20:20:06,028 [36mDEBUG[m [m[Server thread][m [mi.n.u.i.NativeLibraryLoader.<clinit>(87)[m: -Dio.netty.native.tryPatchShadedId: true
+2024-07-29 20:20:06,028 [36mDEBUG[m [m[Server thread][m [mi.n.u.i.NativeLibraryLoader.<clinit>(91)[m: -Dio.netty.native.detectNativeLibraryDuplicates: true
+2024-07-29 20:20:06,033 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerConnectionListener.m_9711_(83)[m: Using default channel type
+2024-07-29 20:20:06,043 [36mDEBUG[m [m[Server thread][m [mi.n.c.MultithreadEventLoopGroup.<clinit>(44)[m: -Dio.netty.eventLoopThreads: 8
+2024-07-29 20:20:06,052 [36mDEBUG[m [m[Server thread][m [mi.n.u.i.InternalThreadLocalMap.<clinit>(86)[m: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-07-29 20:20:06,053 [36mDEBUG[m [m[Server thread][m [mi.n.u.i.InternalThreadLocalMap.<clinit>(89)[m: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-07-29 20:20:06,057 [36mDEBUG[m [m[Server thread][m [mi.n.c.n.NioEventLoop.<clinit>(109)[m: -Dio.netty.noKeySetOptimization: false
+2024-07-29 20:20:06,057 [36mDEBUG[m [m[Server thread][m [mi.n.c.n.NioEventLoop.<clinit>(110)[m: -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-07-29 20:20:06,061 [36mDEBUG[m [m[Server thread][m [mi.n.u.i.PlatformDependent.<clinit>(971)[m: org.jctools-core.MpscChunkedArrayQueue: available
+2024-07-29 20:20:06,098 [36mDEBUG[m [m[Server thread][m [mi.n.c.DefaultChannelId.<clinit>(79)[m: -Dio.netty.processId: 25875 (auto-detected)
+2024-07-29 20:20:06,099 [36mDEBUG[m [m[Server thread][m [mi.n.u.NetUtil.<clinit>(136)[m: -Djava.net.preferIPv4Stack: false
+2024-07-29 20:20:06,100 [36mDEBUG[m [m[Server thread][m [mi.n.u.NetUtil.<clinit>(137)[m: -Djava.net.preferIPv6Addresses: true
+2024-07-29 20:20:06,101 [36mDEBUG[m [m[Server thread][m [mi.n.u.NetUtilInitializations.determineLoopback(129)[m: Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+2024-07-29 20:20:06,102 [36mDEBUG[m [m[Server thread][m [mi.n.u.NetUtil.run(173)[m: /proc/sys/net/core/somaxconn: 4096
+2024-07-29 20:20:06,103 [36mDEBUG[m [m[Server thread][m [mi.n.c.DefaultChannelId.<clinit>(101)[m: -Dio.netty.machineId: 00:22:48:ff:fe:51:7d:32 (auto-detected)
+2024-07-29 20:20:06,127 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(157)[m: -Dio.netty.allocator.numHeapArenas: 8
+2024-07-29 20:20:06,127 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(158)[m: -Dio.netty.allocator.numDirectArenas: 8
+2024-07-29 20:20:06,127 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(160)[m: -Dio.netty.allocator.pageSize: 8192
+2024-07-29 20:20:06,128 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(165)[m: -Dio.netty.allocator.maxOrder: 9
+2024-07-29 20:20:06,128 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(169)[m: -Dio.netty.allocator.chunkSize: 4194304
+2024-07-29 20:20:06,128 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(170)[m: -Dio.netty.allocator.smallCacheSize: 256
+2024-07-29 20:20:06,128 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(171)[m: -Dio.netty.allocator.normalCacheSize: 64
+2024-07-29 20:20:06,128 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(172)[m: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-07-29 20:20:06,128 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(173)[m: -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-07-29 20:20:06,128 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(174)[m: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-07-29 20:20:06,128 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(175)[m: -Dio.netty.allocator.useCacheForAllThreads: false
+2024-07-29 20:20:06,128 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(176)[m: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-07-29 20:20:06,136 [36mDEBUG[m [m[Server thread][m [mi.n.b.ByteBufUtil.<clinit>(87)[m: -Dio.netty.allocator.type: pooled
+2024-07-29 20:20:06,136 [36mDEBUG[m [m[Server thread][m [mi.n.b.ByteBufUtil.<clinit>(96)[m: -Dio.netty.threadLocalDirectBufferSize: 0
+2024-07-29 20:20:06,136 [36mDEBUG[m [m[Server thread][m [mi.n.b.ByteBufUtil.<clinit>(99)[m: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-07-29 20:20:06,254 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: This server is running Mohist version 1.19.2-131 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT, Forge version 43.4.2)
+2024-07-29 20:20:06,276 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.loadSpawnCategory0(310)[m: Registered forge MobCategory as SpawnCategory(Bukkit) CREATURE
+2024-07-29 20:20:06,277 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.loadSpawnCategory0(310)[m: Registered forge MobCategory as SpawnCategory(Bukkit) AXOLOTLS
+2024-07-29 20:20:06,277 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.loadSpawnCategory0(310)[m: Registered forge MobCategory as SpawnCategory(Bukkit) UNDERGROUND_WATER_CREATURE
+2024-07-29 20:20:06,278 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.loadSpawnCategory0(310)[m: Registered forge MobCategory as SpawnCategory(Bukkit) WATER_CREATURE
+2024-07-29 20:20:06,414 [32mINFO [m [m[Server thread][m [m.playerSample(271)[m: Server Ping Player Sample Count: 12
+2024-07-29 20:20:06,418 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Using 4 threads for Netty based IO
+2024-07-29 20:20:06,419 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Debug logging is enabled
+2024-07-29 20:20:06,434 [36mDEBUG[m [m[Server thread][m [mn.m.f.l.FileUtils.getOrCreateDirectory(29)[m: Making serverconfig directory : ./world/serverconfig
+2024-07-29 20:20:06,435 [36mDEBUG[m [m[Server thread][m [mn.m.f.l.FileUtils.getOrCreateDirectory(40)[m: Created serverconfig directory : ./world/serverconfig
+2024-07-29 20:20:06,435 [36mDEBUG[m [m[Server thread][m [mn.m.f.c.ConfigTracker.loadConfigs(49)[m: Loading configs type SERVER
+2024-07-29 20:20:06,435 [36mDEBUG[m [m[Server thread][m [mn.m.f.c.ConfigFileTypeHandler.lambda$reader$1(40)[m: Built TOML config for ./world/serverconfig/forge-server.toml
+2024-07-29 20:20:06,436 [36mDEBUG[m [m[Server thread][m [mn.m.f.c.ConfigFileTypeHandler.lambda$reader$1(49)[m: Loaded TOML config file ./world/serverconfig/forge-server.toml
+2024-07-29 20:20:06,437 [36mDEBUG[m [m[Server thread][m [mn.m.f.c.ConfigFileTypeHandler.lambda$reader$1(52)[m: Watching TOML config file ./world/serverconfig/forge-server.toml for changes
+2024-07-29 20:20:06,437 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.setConfig(87)[m: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+2024-07-29 20:20:06,438 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+2024-07-29 20:20:06,439 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+2024-07-29 20:20:06,439 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$1(92)[m: The comment on key server.removeErroringBlockEntities does not match the spec. This may create a backup.
+2024-07-29 20:20:06,439 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+2024-07-29 20:20:06,440 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$1(92)[m: The comment on key server.removeErroringEntities does not match the spec. This may create a backup.
+2024-07-29 20:20:06,440 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+2024-07-29 20:20:06,440 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$1(92)[m: The comment on key server.fullBoundingBoxLadders does not match the spec. This may create a backup.
+2024-07-29 20:20:06,440 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+2024-07-29 20:20:06,441 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$1(92)[m: The comment on key server.zombieBaseSummonChance does not match the spec. This may create a backup.
+2024-07-29 20:20:06,441 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+2024-07-29 20:20:06,441 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$1(92)[m: The comment on key server.zombieBabyChance does not match the spec. This may create a backup.
+2024-07-29 20:20:06,441 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+2024-07-29 20:20:06,442 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$1(92)[m: The comment on key server.fixAdvancementLoading does not match the spec. This may create a backup.
+2024-07-29 20:20:06,442 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+2024-07-29 20:20:06,442 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$1(92)[m: The comment on key server.permissionHandler does not match the spec. This may create a backup.
+2024-07-29 20:20:06,442 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$1(92)[m: The comment on key server does not match the spec. This may create a backup.
+2024-07-29 20:20:06,444 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeConfig.onLoad(197)[m: Loaded forge config file forge-server.toml
+2024-07-29 20:20:06,444 [36mDEBUG[m [m[Thread-0][m [mn.m.f.c.ConfigFileTypeHandler.run(145)[m: Config file forge-server.toml changed, sending notifies
+2024-07-29 20:20:06,446 [36mDEBUG[m [m[Thread-0][m [mn.m.c.ForgeConfig.onFileChange(202)[m: Forge config just got changed on the file system!
+2024-07-29 20:20:06,447 [36mDEBUG[m [m[Thread-0][m [mn.m.f.c.ConfigFileTypeHandler.run(145)[m: Config file forge-server.toml changed, sending notifies
+2024-07-29 20:20:06,448 [36mDEBUG[m [m[Thread-0][m [mn.m.c.ForgeConfig.onFileChange(202)[m: Forge config just got changed on the file system!
+2024-07-29 20:20:06,501 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(197)[m: Preparing level "world"
+2024-07-29 20:20:21,127 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(561)[m: Preparing start region for dimension minecraft:overworld
+2024-07-29 20:20:21,756 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:21,757 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:22,138 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:22,755 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:23,162 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:23,431 [36mDEBUG[m [m[Worker-Main-1][m [mi.n.u.i.ThreadLocalRandom.newSeed(214)[m: -Dio.netty.initialSeedUniquifier: 0xa86d6034ec1a1ae1
+2024-07-29 20:20:23,635 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:24,197 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:24,656 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 1%
+2024-07-29 20:20:25,131 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 1%
+2024-07-29 20:20:25,637 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 2%
+2024-07-29 20:20:26,135 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 2%
+2024-07-29 20:20:26,631 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 3%
+2024-07-29 20:20:27,134 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 4%
+2024-07-29 20:20:27,640 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 4%
+2024-07-29 20:20:28,131 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 5%
+2024-07-29 20:20:28,644 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 6%
+2024-07-29 20:20:29,137 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 7%
+2024-07-29 20:20:29,631 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 8%
+2024-07-29 20:20:30,141 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 9%
+2024-07-29 20:20:30,632 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 10%
+2024-07-29 20:20:31,143 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 11%
+2024-07-29 20:20:31,637 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 12%
+2024-07-29 20:20:32,132 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 14%
+2024-07-29 20:20:32,638 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 15%
+2024-07-29 20:20:33,129 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 17%
+2024-07-29 20:20:33,645 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 18%
+2024-07-29 20:20:34,134 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 20%
+2024-07-29 20:20:34,634 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 22%
+2024-07-29 20:20:35,143 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 23%
+2024-07-29 20:20:35,639 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 24%
+2024-07-29 20:20:36,133 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 26%
+2024-07-29 20:20:36,631 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 27%
+2024-07-29 20:20:37,151 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 30%
+2024-07-29 20:20:37,636 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 31%
+2024-07-29 20:20:38,148 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 32%
+2024-07-29 20:20:38,632 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 34%
+2024-07-29 20:20:39,140 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 36%
+2024-07-29 20:20:39,633 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 38%
+2024-07-29 20:20:40,135 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 41%
+2024-07-29 20:20:40,649 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 42%
+2024-07-29 20:20:41,129 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 44%
+2024-07-29 20:20:41,629 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 46%
+2024-07-29 20:20:42,137 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 49%
+2024-07-29 20:20:42,629 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 50%
+2024-07-29 20:20:43,133 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 51%
+2024-07-29 20:20:43,630 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 54%
+2024-07-29 20:20:44,141 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 55%
+2024-07-29 20:20:44,678 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 57%
+2024-07-29 20:20:45,142 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 59%
+2024-07-29 20:20:45,639 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 62%
+2024-07-29 20:20:46,131 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 64%
+2024-07-29 20:20:46,630 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 66%
+2024-07-29 20:20:47,129 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 68%
+2024-07-29 20:20:47,631 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 69%
+2024-07-29 20:20:48,141 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 72%
+2024-07-29 20:20:48,635 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 74%
+2024-07-29 20:20:49,153 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 75%
+2024-07-29 20:20:49,634 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 76%
+2024-07-29 20:20:50,129 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 79%
+2024-07-29 20:20:50,629 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 82%
+2024-07-29 20:20:51,129 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 83%
+2024-07-29 20:20:51,644 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 85%
+2024-07-29 20:20:52,128 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 87%
+2024-07-29 20:20:52,632 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 89%
+2024-07-29 20:20:53,144 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 92%
+2024-07-29 20:20:53,637 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 94%
+2024-07-29 20:20:54,135 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 96%
+2024-07-29 20:20:54,598 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 33470 ms
+2024-07-29 20:20:54,604 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(561)[m: Preparing start region for dimension minecraft:the_end
+2024-07-29 20:20:54,810 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:55,107 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:55,606 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:56,108 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 6%
+2024-07-29 20:20:56,606 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 17%
+2024-07-29 20:20:57,105 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 45%
+2024-07-29 20:20:57,605 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 84%
+2024-07-29 20:20:57,928 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 3323 ms
+2024-07-29 20:20:57,931 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(561)[m: Preparing start region for dimension minecraft:the_nether
+2024-07-29 20:20:58,116 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:58,432 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:58,935 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-29 20:20:59,453 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 1%
+2024-07-29 20:20:59,947 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 3%
+2024-07-29 20:21:00,442 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 5%
+2024-07-29 20:21:00,932 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 8%
+2024-07-29 20:21:01,454 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 10%
+2024-07-29 20:21:01,945 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 15%
+2024-07-29 20:21:02,435 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 18%
+2024-07-29 20:21:02,944 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 21%
+2024-07-29 20:21:03,437 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 23%
+2024-07-29 20:21:03,932 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 27%
+2024-07-29 20:21:04,444 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 31%
+2024-07-29 20:21:04,944 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 35%
+2024-07-29 20:21:05,431 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 40%
+2024-07-29 20:21:05,939 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 43%
+2024-07-29 20:21:06,432 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 48%
+2024-07-29 20:21:06,932 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 53%
+2024-07-29 20:21:07,447 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 57%
+2024-07-29 20:21:07,944 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 61%
+2024-07-29 20:21:08,433 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 66%
+2024-07-29 20:21:08,943 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 70%
+2024-07-29 20:21:09,439 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 74%
+2024-07-29 20:21:09,951 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 80%
+2024-07-29 20:21:10,432 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 84%
+2024-07-29 20:21:10,932 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 88%
+2024-07-29 20:21:11,441 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 93%
+2024-07-29 20:21:11,939 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 99%
+2024-07-29 20:21:11,953 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 14023 ms
+2024-07-29 20:21:11,971 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(201)[m: Done (65.540s)! For help, type "help"
+2024-07-29 20:21:11,983 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeI18n.loadLanguageData(82)[m: Loading I18N data entries: 209
+2024-07-29 20:21:11,986 [32mINFO [m [m[Server thread][m [mn.m.s.p.PermissionAPI.initializePermissionAPI(130)[m: Successfully initialized permission handler forge:default_handler
+2024-07-29 20:23:05,893 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1265)[m: Stopping the server
+2024-07-29 20:23:05,936 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_7041_(684)[m: Stopping server
+2024-07-29 20:23:05,937 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_7041_(696)[m: Saving players
+2024-07-29 20:23:06,038 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_7041_(702)[m: Saving worlds
+2024-07-29 20:23:08,081 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(622)[m: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+2024-07-29 20:23:16,412 [1;31mERROR[m [m[Server console handler][m [mn.m.s.d.DedicatedServer.uncaughtException(14)[m: Caught previously unhandled exception :
+java.io.IOError: java.io.IOException: Input/output error
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.21.0.jar%2379!/:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[jline-reader-3.21.0.jar%2379!/:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[jline-reader-3.21.0.jar%2379!/:?]
+	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923) ~[jline-reader-3.21.0.jar%2379!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956) ~[jline-reader-3.21.0.jar%2379!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651) ~[jline-reader-3.21.0.jar%2379!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.21.0.jar%2379!/:?]
+	at net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:46) ~[forge-1.19.2-43.4.2-universal.jar%23138!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:98) ~[server-1.19.2-20220805.130853-srg.jar%23133!/:?]
+Caused by: java.io.IOException: Input/output error
+	at java.io.FileInputStream.read0(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:231) ~[?:?]
+	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73) ~[jline-terminal-3.21.0.jar%2380!/:?]
+	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[jline-terminal-3.21.0.jar%2380!/:?]
+	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168) ~[jline-terminal-3.21.0.jar%2380!/:?]
+	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57) ~[jline-terminal-3.21.0.jar%2380!/:?]
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.21.0.jar%2379!/:?]
+	... 8 more
+2024-07-29 20:24:02,712 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(622)[m: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+2024-07-29 20:24:04,937 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(622)[m: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+2024-07-29 20:24:05,304 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1408)[m: Gathering id map for writing to world save world
+2024-07-29 20:24:05,313 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1414)[m: ID Map collection complete world
+2024-07-29 20:24:05,323 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(645)[m: ThreadedAnvilChunkStorage (world): All chunks are saved
+2024-07-29 20:24:05,323 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(645)[m: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+2024-07-29 20:24:05,323 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(645)[m: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+2024-07-29 20:24:05,324 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(648)[m: ThreadedAnvilChunkStorage: All dimensions are saved
+2024-07-29 20:24:05,748 [36mDEBUG[m [m[Server thread][m [mn.m.f.l.FileUtils.getOrCreateDirectory(42)[m: Found existing serverconfig directory : ./world/serverconfig
+2024-07-29 20:24:05,749 [36mDEBUG[m [m[Server thread][m [mn.m.f.c.ConfigTracker.unloadConfigs(54)[m: Unloading configs type SERVER
+2024-07-29 20:24:05,749 [36mDEBUG[m [m[Thread-0][m [mn.m.f.c.ConfigFileTypeHandler.run(145)[m: Config file forge-server.toml changed, sending notifies
+2024-07-29 20:24:05,750 [36mDEBUG[m [m[Thread-0][m [mn.m.c.ForgeConfig.onFileChange(202)[m: Forge config just got changed on the file system!
